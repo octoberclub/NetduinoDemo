@@ -1,0 +1,14 @@
+[Bb]in
+[Oo]bj
+[Rr]elease
+[Dd]ebug
+_ReSharper.*
+*.csproj.user
+*.resharper.user
+*.resharper
+*.suo
+*.cache
+*~
+*.swp
+*.dat
+/Build

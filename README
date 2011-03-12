@@ -1,0 +1,9 @@
+A few examples of projects written for the Netduino
+
+Required tools/components
+
+- Visual C# 2010 Express (or Visual Studio 2010)
+- .NET Micro Framework 4.1
+- Netduino SDK – 32-bit/ 64-bit
+
+To run, connect your netduino via USB. Press F5.
