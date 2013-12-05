@@ -23,8 +23,7 @@ public static class NoteFrequencies
                 // Multiply initial note by 2 to the power (n / 12) to get correct frequency, 
                 //  (where n is the number of notes above the first note). 
                 //  Then mutiply that value by 2 to go up each octave
-                return (16.35f * (float)System.Math.Pow(2, (n / 12)))
-                    * (float)System.Math.Pow(2, octave);
+                return (float)(16.35 * System.Math.Pow(2, n / 12f) * System.Math.Pow(2, octave));
             }
         }
         throw new ArgumentException("No frequency found for note : " + note, note);
